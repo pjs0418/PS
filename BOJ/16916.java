@@ -104,11 +104,6 @@ class KMP {
                         return;
                     }
 
-                    if((temp + 1) == s.length() && (j + 1) == p.length()) {
-                        this.checkPInS = 1;
-                        return;
-                    }
-
                     temp++;
                 }
                 else {
